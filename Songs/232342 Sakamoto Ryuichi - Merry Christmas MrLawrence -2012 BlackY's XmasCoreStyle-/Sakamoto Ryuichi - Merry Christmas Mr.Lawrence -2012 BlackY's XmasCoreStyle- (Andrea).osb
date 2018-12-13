@@ -1,0 +1,861 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"BG.jpg",320,240
+ M,0,-1246,,320,240
+ F,0,-1246,,0
+ S,0,-1246,,0.6266667
+Sprite,Background,Centre,"Geroboard\Back.jpg",320,240
+ F,0,2346,,0
+ F,0,2346,3065,0,1
+ F,0,3065,3783,1
+ F,0,3783,14562,1
+ F,0,14562,24621,1
+ F,0,24621,26059,1,0.1893333
+ F,0,26059,37017,0.1893333
+ F,0,37017,38544,0.1893333,1
+ F,0,38544,40430,1,0.5839999
+ F,0,40430,51927,0.5839999,1
+ F,0,51927,73124,1,0.9946667
+ F,0,73124,73843,0.9946667,0.9968006
+ F,0,73843,74921,0.9968006,1
+ F,0,74921,77795,1,0.2959999
+ F,0,77795,78873,0.2959999,1
+ F,0,78873,79232,1,0
+ F,0,79232,80669,0,0.01114206
+ F,0,80669,80759,0.01114206,1
+ F,0,80759,148214,1
+ F,0,148214,150011,1,0.9946667
+ F,0,150011,161148,0.9946667,1
+ F,0,161148,169771,1
+ F,0,169771,172645,1,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,79412,,111,96
+ S,0,79412,79591,0.1786667,0.5093334
+ S,0,79591,80310,0.5093334,0.5063785
+ S,0,80310,80490,0.5063785,0.1
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,79771,,163,273
+ S,0,79771,79950,0.1786667,0.5093334
+ S,0,79950,80310,0.5093334,0.5056388
+ S,0,80310,80490,0.5056388,0.1
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,79951,,333,376
+ S,0,79951,80130,0.1786667,0.5093334
+ S,0,80130,80310,0.5093334
+ S,0,80310,80490,0.5093334,0.1
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,80130,,524,378
+ S,0,80130,80309,0.1786667,0.5093334
+ S,0,80309,80490,0.5093334,0.1
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Pulse.jpg",320,240
+ F,0,81029,81388,1,0
+ F,0,81747,82106,1,0
+ F,0,82466,82825,1,0
+ F,0,83184,83543,1,0
+ F,0,83903,84262,1,0
+ F,0,84621,84980,1,0
+ F,0,85340,85699,1,0
+ F,0,86059,86418,1,0
+ F,0,86777,87136,1,0
+ F,0,87496,87855,1,0
+ F,0,88214,88573,1,0
+ F,0,88933,89292,1,0
+ F,0,89651,90010,1,0
+ F,0,90370,90729,1,0
+ F,0,91088,91447,1,0
+ F,0,91807,92166,1,0
+ F,0,92526,92885,1,0
+ F,0,93244,93603,1,0
+ F,0,93963,94322,1,0
+ F,0,94681,95040,1,0
+ F,0,95400,95759,1,0
+ F,0,96118,96477,1,0
+ F,0,96837,97196,1,0
+ F,0,97556,97915,1,0
+ F,0,98274,98633,1,0
+ F,0,98993,99352,1,0
+ F,0,99711,100070,1,0
+ F,0,100430,100789,1,0
+ F,0,101148,101507,1,0
+ F,0,101867,102226,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Pulse.jpg",320,240
+ F,0,102226,102315,1,0
+ F,0,102316,102405,1,0
+ F,0,102406,102495,1,0
+ F,0,102496,102585,1,0
+ F,0,102585,102674,1,0
+ F,0,102675,102764,1,0
+ F,0,102765,102854,1,0
+ F,0,102855,102944,1,0
+ F,0,102945,103034,1,0
+ F,0,103035,103124,1,0
+ F,0,103124,103213,1,0
+ F,0,103214,103303,1,0
+ F,0,103304,103393,1,0
+ F,0,103394,103483,1,0
+ F,0,103484,103573,1,0
+ F,0,103573,103662,1,0
+ F,0,103663,103752,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,81029,,-68,62
+ F,0,81029,81388,1,0
+ R,0,81029,81388,0,-1.770667
+ F,0,81388,81747,1,0
+ R,0,81388,81747,0,-1.770667
+ F,0,81747,82106,1,0
+ R,0,81747,82106,0,-1.770667
+ F,0,82106,82465,1,0
+ R,0,82106,82465,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,83544,,725,443
+ F,0,83544,83903,1,0
+ R,0,83544,83903,0,-1.770667
+ F,0,83903,84262,1,0
+ R,0,83903,84262,0,-1.770667
+ F,0,84263,84622,1,0
+ R,0,84263,84622,0,-1.770667
+ F,0,84622,84981,1,0
+ R,0,84622,84981,0,-1.770667
+ F,0,84981,85340,1,0
+ R,0,84981,85340,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,86418,,-84,444
+ F,0,86418,86777,1,0
+ R,0,86418,86777,0,-1.770667
+ F,0,86777,87136,1,0
+ R,0,86777,87136,0,-1.770667
+ F,0,87137,87496,1,0
+ R,0,87137,87496,0,-1.770667
+ F,0,87496,87855,1,0
+ R,0,87496,87855,0,-1.770667
+ F,0,87855,88214,1,0
+ R,0,87855,88214,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,89292,,726,27
+ F,0,89292,89651,1,0
+ R,0,89292,89651,0,-1.770667
+ F,0,89651,90010,1,0
+ R,0,89651,90010,0,-1.770667
+ F,0,90011,90370,1,0
+ R,0,90011,90370,0,-1.770667
+ F,0,90370,90729,1,0
+ R,0,90370,90729,0,-1.770667
+ F,0,90729,91088,1,0
+ R,0,90729,91088,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,92166,,-85,31
+ F,0,92166,92525,1,0
+ R,0,92166,92525,0,-1.770667
+ F,0,92525,92884,1,0
+ R,0,92525,92884,0,-1.770667
+ F,0,92885,93244,1,0
+ R,0,92885,93244,0,-1.770667
+ F,0,93244,93603,1,0
+ R,0,93244,93603,0,-1.770667
+ F,0,93603,93962,1,0
+ R,0,93603,93962,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,95041,,725,443
+ F,0,95041,95400,1,0
+ R,0,95041,95400,0,-1.770667
+ F,0,95400,95759,1,0
+ R,0,95400,95759,0,-1.770667
+ F,0,95760,96119,1,0
+ R,0,95760,96119,0,-1.770667
+ F,0,96119,96478,1,0
+ R,0,96119,96478,0,-1.770667
+ F,0,96478,96837,1,0
+ R,0,96478,96837,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,97915,,-84,444
+ F,0,97915,98274,1,0
+ R,0,97915,98274,0,-1.770667
+ F,0,98274,98633,1,0
+ R,0,98274,98633,0,-1.770667
+ F,0,98634,98993,1,0
+ R,0,98634,98993,0,-1.770667
+ F,0,98993,99352,1,0
+ R,0,98993,99352,0,-1.770667
+ F,0,99352,99711,1,0
+ R,0,99352,99711,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,100789,,726,27
+ F,0,100789,101148,1,0
+ R,0,100789,101148,0,-1.770667
+ F,0,101148,101507,1,0
+ R,0,101148,101507,0,-1.770667
+ F,0,101508,101867,1,0
+ R,0,101508,101867,0,-1.770667
+ F,0,101867,102226,1,0
+ R,0,101867,102226,0,-1.770667
+ F,0,102226,102585,1,0
+ R,0,102226,102585,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,127017,127376,1,0
+ F,0,127735,128094,1,0
+ F,0,128454,128813,1,0
+ F,0,129172,129531,1,0
+ F,0,129891,130250,1,0
+ F,0,130609,130968,1,0
+ F,0,131328,131687,1,0
+ F,0,132047,132406,1,0
+ F,0,132765,133124,1,0
+ F,0,133484,133843,1,0
+ F,0,134202,134561,1,0
+ F,0,134921,135280,1,0
+ F,0,135639,135998,1,0
+ F,0,136358,136717,1,0
+ F,0,137076,137435,1,0
+ F,0,137795,138154,1,0
+ F,0,138514,138873,1,0
+ F,0,139232,139591,1,0
+ F,0,139951,140310,1,0
+ F,0,140669,141028,1,0
+ F,0,141388,141747,1,0
+ F,0,142106,142465,1,0
+ F,0,142825,143184,1,0
+ F,0,143544,143903,1,0
+ F,0,144262,144621,1,0
+ F,0,144981,145340,1,0
+ F,0,145699,146058,1,0
+ F,0,146418,146777,1,0
+ F,0,147136,147495,1,0
+ F,0,147855,148214,1,0
+ F,0,148573,148932,1,0
+ F,0,148933,149023,1,0
+ F,0,149023,149113,1,0
+ F,0,149112,149202,1,0
+ F,0,149202,149292,1,0
+ F,0,149292,149382,1,0
+ F,0,149382,149472,1,0
+ F,0,149472,149562,1,0
+ F,0,149562,149652,1,0
+ F,0,149651,149741,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ M,0,126657,,320,240
+ F,0,126657,127017,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,14562,24621,0,1
+ F,0,24621,26059,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Crystallized.jpg",320,240
+ L,0,32
+  F,0,149651,150010,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Gray.jpg",320,240
+ F,0,161148,169771,0,1
+ F,0,169771,172645,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Paper.jpg",320,240
+ F,0,104023,104382,1,0
+ F,0,104741,105100,1,0
+ F,0,105460,105819,1,0
+ F,0,106178,106537,1,0
+ F,0,106897,107256,1,0
+ F,0,107615,107974,1,0
+ F,0,108334,108693,1,0
+ F,0,109053,109412,1,0
+ F,0,109771,110130,1,0
+ F,0,110490,110849,1,0
+ F,0,111208,111567,1,0
+ F,0,111927,112286,1,0
+ F,0,112645,113004,1,0
+ F,0,113364,113723,1,0
+ F,0,114082,114441,1,0
+ F,0,114801,115160,1,0
+ F,0,115520,115879,1,0
+ F,0,116238,116597,1,0
+ F,0,116957,117316,1,0
+ F,0,117675,118034,1,0
+ F,0,118394,118753,1,0
+ F,0,119112,119471,1,0
+ F,0,119831,120190,1,0
+ F,0,120550,120909,1,0
+ F,0,120909,120999,1,0
+ F,0,120999,121089,1,0
+ F,0,121088,121178,1,0
+ F,0,121178,121268,1,0
+ F,0,121268,121358,1,0
+ F,0,121358,121448,1,0
+ F,0,121448,121538,1,0
+ F,0,121538,121628,1,0
+ F,0,121627,121717,1,0
+ F,0,121717,121807,1,0
+ F,0,121807,121897,1,0
+ F,0,121897,121987,1,0
+ F,0,121987,122077,1,0
+ F,0,122076,122166,1,0
+ F,0,122166,122256,1,0
+ F,0,122256,122346,1,0
+ F,0,122346,122436,1,0
+ F,0,122436,122526,1,0
+ F,0,122526,122616,1,0
+ F,0,122615,122705,1,0
+ F,0,122705,122795,1,0
+ F,0,122795,122885,1,0
+ F,0,122885,122975,1,0
+ F,0,122975,123065,1,0
+ F,0,123064,123154,1,0
+ F,0,123154,123244,1,0
+ F,0,123244,123334,1,0
+ F,0,123334,123424,1,0
+ F,0,123424,123514,1,0
+ F,0,123514,123604,1,0
+ F,0,123603,123693,1,0
+ F,0,123693,123783,1,0
+ F,0,123783,123873,1,0
+ F,0,123873,123963,1,0
+ F,0,123963,124053,1,0
+ F,0,124053,124143,1,0
+ F,0,124142,124232,1,0
+ F,0,124232,124322,1,0
+ F,0,124322,124412,1,0
+ F,0,124412,124502,1,0
+ F,0,124502,124592,1,0
+ F,0,124591,124681,1,0
+ F,0,124681,124771,1,0
+ F,0,124771,124861,1,0
+ F,0,124861,124951,1,0
+ F,0,124951,125041,1,0
+ F,0,125041,125131,1,0
+ F,0,125130,125220,1,0
+ F,0,125220,125310,1,0
+ F,0,125310,125400,1,0
+ F,0,125400,125490,1,0
+ F,0,125490,125580,1,0
+ F,0,125579,125669,1,0
+ F,0,125669,125759,1,0
+ F,0,125759,125849,1,0
+ F,0,125849,125939,1,0
+ F,0,125939,126029,1,0
+ F,0,126029,126119,1,0
+ F,0,126118,126208,1,0
+ F,0,126208,126298,1,0
+ F,0,126298,126388,1,0
+ F,0,126388,126478,1,0
+ F,0,126478,126568,1,0
+ F,0,126567,126657,1,0
+ F,0,126657,126747,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ M,0,161148,,320,240
+ F,0,161148,161867,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ M,0,149651,,320,240
+ F,0,149651,150011,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\WhiteGirl.jpg",320,240
+ F,0,166897,166987,1,0
+ F,0,166987,167077,1,0
+ F,0,167076,167166,1,0
+ F,0,167166,167256,1,0
+ F,0,167256,167346,1,0
+ F,0,167346,167436,1,0
+ F,0,167436,167526,1,0
+ F,0,167526,167616,1,0
+ F,0,167615,167705,1,0
+ F,0,167705,167795,1,0
+ F,0,167795,167885,1,0
+ F,0,167885,167975,1,0
+ F,0,167975,168065,1,0
+ F,0,168064,168154,1,0
+ F,0,168154,168244,1,0
+ F,0,168244,168334,1,0
+ F,0,168334,168424,1,0
+ F,0,168424,168514,1,0
+ F,0,168514,168604,1,0
+ F,0,168603,168693,1,0
+ F,0,168693,168783,1,0
+ F,0,168783,168873,1,0
+ F,0,168873,168963,1,0
+ F,0,168963,169053,1,0
+ F,0,169053,169143,1,0
+ F,0,169142,169232,1,0
+ F,0,169232,169322,1,0
+ F,0,169322,169412,1,0
+ F,0,169412,169502,1,0
+ F,0,169502,169592,1,0
+ F,0,169591,169681,1,0
+ F,0,169681,169771,1,0
+ F,0,169771,169861,1,0
+ F,0,169861,169951,1,0
+ F,0,169951,170041,1,0
+ F,0,170041,170131,1,0
+ F,0,170130,170220,1,0
+ F,0,170220,170310,1,0
+ F,0,170310,170400,1,0
+ F,0,170400,170490,1,0
+ F,0,170490,170580,1,0
+ F,0,170579,170669,1,0
+ F,0,170669,170759,1,0
+ F,0,170759,170849,1,0
+ F,0,170849,170939,1,0
+ F,0,170939,171029,1,0
+ F,0,171029,171119,1,0
+ F,0,171118,171208,1,0
+ F,0,171208,171298,1,0
+ F,0,171298,171388,1,0
+ F,0,171388,171478,1,0
+ F,0,171478,171568,1,0
+ F,0,171567,171657,1,0
+ F,0,171657,171747,1,0
+ F,0,171747,171837,1,0
+ F,0,171837,171927,1,0
+ F,0,171927,172017,1,0
+ F,0,172017,172107,1,0
+ F,0,172106,172196,1,0
+ F,0,172196,172286,1,0
+ F,0,172286,172376,1,0
+ F,0,172376,172466,1,0
+ F,0,172466,172556,1,0
+ F,0,172556,172645,1,0
+ F,0,172645,172735,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ M,0,103663,,320,240
+ F,0,103663,104023,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ F,0,148214,148573,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,127017,,-68,62
+ F,0,127017,127376,1,0
+ R,0,127017,127376,0,-1.770667
+ F,0,127376,127735,1,0
+ R,0,127376,127735,0,-1.770667
+ F,0,127735,128094,1,0
+ R,0,127735,128094,0,-1.770667
+ F,0,128094,128453,1,0
+ R,0,128094,128453,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,129532,,725,443
+ F,0,129532,129891,1,0
+ R,0,129532,129891,0,-1.770667
+ F,0,129891,130250,1,0
+ R,0,129891,130250,0,-1.770667
+ F,0,130251,130610,1,0
+ R,0,130251,130610,0,-1.770667
+ F,0,130610,130969,1,0
+ R,0,130610,130969,0,-1.770667
+ F,0,130969,131328,1,0
+ R,0,130969,131328,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,132406,,-84,444
+ F,0,132406,132765,1,0
+ R,0,132406,132765,0,-1.770667
+ F,0,132765,133124,1,0
+ R,0,132765,133124,0,-1.770667
+ F,0,133125,133484,1,0
+ R,0,133125,133484,0,-1.770667
+ F,0,133484,133843,1,0
+ R,0,133484,133843,0,-1.770667
+ F,0,133843,134202,1,0
+ R,0,133843,134202,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,135280,,726,27
+ F,0,135280,135639,1,0
+ R,0,135280,135639,0,-1.770667
+ F,0,135639,135998,1,0
+ R,0,135639,135998,0,-1.770667
+ F,0,135999,136358,1,0
+ R,0,135999,136358,0,-1.770667
+ F,0,136358,136717,1,0
+ R,0,136358,136717,0,-1.770667
+ F,0,136717,137076,1,0
+ R,0,136717,137076,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,138154,,-85,31
+ F,0,138154,138513,1,0
+ R,0,138154,138513,0,-1.770667
+ F,0,138513,138872,1,0
+ R,0,138513,138872,0,-1.770667
+ F,0,138873,139232,1,0
+ R,0,138873,139232,0,-1.770667
+ F,0,139232,139591,1,0
+ R,0,139232,139591,0,-1.770667
+ F,0,139591,139950,1,0
+ R,0,139591,139950,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,141029,,725,443
+ F,0,141029,141388,1,0
+ R,0,141029,141388,0,-1.770667
+ F,0,141388,141747,1,0
+ R,0,141388,141747,0,-1.770667
+ F,0,141748,142107,1,0
+ R,0,141748,142107,0,-1.770667
+ F,0,142107,142466,1,0
+ R,0,142107,142466,0,-1.770667
+ F,0,142466,142825,1,0
+ R,0,142466,142825,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,143903,,-84,444
+ F,0,143903,144262,1,0
+ R,0,143903,144262,0,-1.770667
+ F,0,144262,144621,1,0
+ R,0,144262,144621,0,-1.770667
+ F,0,144622,144981,1,0
+ R,0,144622,144981,0,-1.770667
+ F,0,144981,145340,1,0
+ R,0,144981,145340,0,-1.770667
+ F,0,145340,145699,1,0
+ R,0,145340,145699,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeBlue.png",320,240
+ M,0,146777,,726,27
+ F,0,146777,147136,1,0
+ R,0,146777,147136,0,-1.770667
+ F,0,147136,147495,1,0
+ R,0,147136,147495,0,-1.770667
+ F,0,147496,147855,1,0
+ R,0,147496,147855,0,-1.770667
+ F,0,147855,148214,1,0
+ R,0,147855,148214,0,-1.770667
+ F,0,148214,148573,1,0
+ R,0,148214,148573,0,-1.770667
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,3065,3424,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,3424,3783,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,3783,4142,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,4142,4502,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,4502,4861,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,4861,5220,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,5220,5579,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,5579,5939,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,5939,6298,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,6298,6657,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,6657,7017,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,7017,7376,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,7376,7735,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,7735,8094,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,8094,8454,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,8454,8633,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,8633,8723,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,8723,8813,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,8813,9172,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,9172,9532,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,9532,9891,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,9891,10250,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,10250,10609,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,10609,10969,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,10969,11328,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,11328,11687,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,11687,11777,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,11777,11867,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,11867,11957,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,11957,12047,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,12047,12136,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,12136,12226,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,12226,12316,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,12316,12406,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,12406,12496,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,12496,12585,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,12585,12675,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,12675,12765,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,12765,12855,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,12855,12945,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,12945,13035,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,13035,13124,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,13124,13304,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,13304,13394,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,13394,13484,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,13484,13663,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,13843,13888,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,13888,13933,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,13933,13978,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,13978,14023,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,14023,14067,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,14067,14112,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,14112,14157,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,14157,14202,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,14202,14247,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,14247,14292,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,14292,14337,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,14337,14382,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\4.jpg",320,240
+ F,0,14382,14427,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\5.jpg",320,240
+ F,0,14427,14472,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\1.jpg",320,240
+ F,0,14472,14517,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\2.jpg",320,240
+ F,0,14517,14562,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,13663,13843,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Colors\3.jpg",320,240
+ F,0,14562,14606,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,10
+  F,0,63424,63783,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,12
+  F,0,67017,67196,1,0.08266655
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,40
+  F,0,69172,69262,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,5
+  F,0,72765,72810,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,4
+  F,0,73124,73214,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ L,0,5
+  F,0,73484,73529,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,73843,73933,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,73933,74023,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74023,74067,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74067,74111,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74112,74156,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74157,74201,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74202,74246,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74382,74472,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74472,74562,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74562,74606,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74606,74650,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74651,74695,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74696,74740,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74741,74785,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74786,74830,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74831,74875,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74876,74920,1,0.2479999
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ F,0,74921,75280,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,26059,,2,81
+ F,0,26059,26777,0.5866667,0
+ S,0,26059,26777,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,26238,,131,242
+ F,0,26238,26956,0.5866667,0
+ S,0,26238,26956,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,26418,,290,161
+ F,0,26418,27136,0.5866667,0
+ S,0,26418,27136,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,26597,,398,274
+ F,0,26597,27315,0.5866667,0
+ S,0,26597,27315,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,26777,,546,328
+ F,0,26777,27495,0.5866667,0
+ S,0,26777,27495,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,28933,,667,88
+ F,0,28933,29651,0.5866667,0
+ S,0,28933,29651,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,29112,,560,288
+ F,0,29112,29830,0.5866667,0
+ S,0,29112,29830,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,29292,,378,124
+ F,0,29292,30010,0.5866667,0
+ S,0,29292,30010,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,29472,,225,230
+ F,0,29472,30190,0.5866667,0
+ S,0,29472,30190,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,29651,,70,129
+ F,0,29651,30369,0.5866667,0
+ S,0,29651,30369,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,31807,,153,366
+ F,0,31807,32525,0.5866667,0
+ S,0,31807,32525,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,31987,,389,409
+ F,0,31987,32705,0.5866667,0
+ S,0,31987,32705,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,32166,,221,190
+ F,0,32166,32884,0.5866667,0
+ S,0,32166,32884,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,32526,,405,59
+ F,0,32526,33244,0.5866667,0
+ S,0,32526,33244,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ M,0,40430,,320,240
+ F,0,40430,40789,0.5040001,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Girl\Bright.jpg",320,240
+ M,0,51927,,320,240
+ F,0,51927,52286,0.5040001,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Layer.jpg",320,240
+ F,0,80669,81029,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,32346,,380,236
+ F,0,32346,33064,0.5866667,0
+ S,0,32346,33064,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,34681,,405,59
+ F,0,34681,35399,0.5866667,0
+ S,0,34681,35399,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,34861,,221,190
+ F,0,34861,35579,0.5866667,0
+ S,0,34861,35579,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,35041,,380,236
+ F,0,35041,35759,0.5866667,0
+ S,0,35041,35759,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,35220,,153,366
+ F,0,35220,35938,0.5866667,0
+ S,0,35220,35938,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,35400,,389,409
+ F,0,35400,36118,0.5866667,0
+ S,0,35400,36118,0.1,1.124
+Sprite,Foreground,Centre,"Geroboard\Names\We Wish You A Merry Christmas.png",320,240
+ S,0,172645,,0.4346665
+ F,0,172645,174082,0,1
+ M,0,172645,189891,321,124,321,229
+ F,0,174082,189891,1
+ M,0,189891,198514,321,229,321,207
+ F,0,189891,198514,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,172645,,190,368
+ S,0,172645,,0.4346668
+ F,0,172645,174082,0,1
+ R,0,172645,198514,0,3.797334
+ F,0,174082,189891,1
+ F,0,189891,198514,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,176957,,321,312
+ S,0,176957,,0.3280002
+ F,0,176957,178394,0,1
+ R,0,176957,198514,0,3.221334
+ F,0,178394,189891,1
+ F,0,189891,198514,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Xmas\SnowFlakeWhite.png",320,240
+ M,0,182705,,455,366
+ S,0,182705,,0.4346664
+ F,0,182705,184142,0,1
+ R,0,182705,198514,0,3.285334
+ F,0,184142,189891,1
+ F,0,189891,198514,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,175520,,-68,4
+ F,0,175520,175681,0,1
+ S,0,175520,176238,0.392,2.856
+ F,0,175681,176238,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,176238,,710,5
+ F,0,176238,176399,0,1
+ S,0,176238,176956,0.392,2.856
+ F,0,176399,176956,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,176957,,318,473
+ F,0,176957,177118,0,1
+ S,0,176957,177675,0.392,2.856
+ F,0,177118,177675,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,181268,,318,473
+ F,0,181268,181429,0,1
+ S,0,181268,181986,0.392,2.856
+ F,0,181429,181986,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,181987,,710,5
+ F,0,181987,182148,0,1
+ S,0,181987,182705,0.392,2.856
+ F,0,182148,182705,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,182705,,-68,4
+ F,0,182705,182866,0,1
+ S,0,182705,183423,0.392,2.856
+ F,0,182866,183423,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,187017,,-68,4
+ F,0,187017,187178,0,1
+ S,0,187017,187735,0.392,2.856
+ F,0,187178,187735,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,187735,,710,5
+ F,0,187735,187896,0,1
+ S,0,187735,188453,0.392,2.856
+ F,0,187896,188453,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,188454,,318,473
+ F,0,188454,188615,0,1
+ S,0,188454,189172,0.392,2.856
+ F,0,188615,189172,1,0
+Sprite,Foreground,Centre,"Geroboard\Effects\Ring.png",320,240
+ M,0,195639,,321,215
+ S,0,195639,,0.1
+ F,0,195639,195819,0,1
+ S,0,195639,198514,0.1,5
+ F,0,195819,198514,1,0
+//Storyboard Sound Samples
